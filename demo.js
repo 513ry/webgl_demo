@@ -3,7 +3,7 @@
 const WIDTH = 960 * 0.8;
 const HEIGHT = 540 * 0.8;
 
-// Load shaders
+// Load glsl from text
 let vertexShaderText = [
     'precision mediump float;',
     '',
@@ -33,9 +33,7 @@ let war = (state, error_msg = 'none', ...restProps) => {
     return state;
 }
 
-// class Demo
-
-// 
+// Demo
 let init_demo = () => { 
     console.log('JS complete initialization');
     
@@ -50,13 +48,6 @@ let init_demo = () => {
 	return(2);
     } else {
 	return [0, gl, canvas];
-    }
-}
-
-class Polygon {
-    constructor(x, y) {
-	this.x = x;
-	this.y = y;
     }
 }
 
