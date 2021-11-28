@@ -1,0 +1,14 @@
+*
+!*/
+!.gitignore
+
+# Documentation
+!README.md
+
+# Configuration code
+!install.sh
+
+# Application code
+![a-z]*.js
+!stylesheet.css
+!index.html
